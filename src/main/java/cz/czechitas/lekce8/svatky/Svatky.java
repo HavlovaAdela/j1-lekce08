@@ -119,8 +119,9 @@ public class Svatky {
    *
    */
   public void vypsatJmenaListopad() {
-    //TODO
-    svatkyVMesici(Month.NOVEMBER);
+
+    svatkyVMesici(Month.NOVEMBER).forEach(svatek -> System.out.println());
+
 
   }
 
