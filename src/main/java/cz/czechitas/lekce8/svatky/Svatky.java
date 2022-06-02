@@ -141,7 +141,6 @@ public class Svatky {
    * @see Stream#skip(long)
    */
   public Stream<String> cervenJmenaOdDesatehoJmena() {
-
     return seznamSvatku()
             .filter(svatek -> svatek.getDen().getMonth().equals(Month.JUNE))
             .skip(10)
